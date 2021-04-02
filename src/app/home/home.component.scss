@@ -1,26 +1,22 @@
-.container1{
+.container1 {
     display: flex;
     padding: 30px;
-    height: 600px;
-    form{
+    font-size: 20px;
+    button {
+        background-color: #4caf50;
+        color: white;
+        padding: 5px;
+        width: 50%;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+    input {
         display: flex;
         flex-direction: column;
-        justify-content: center; 
-        padding: 10px;
-        font-size: 18px;
-        font-weight: 500;
-        button{
-            font-size: 19px;
-            font-weight: 600;
-            margin: 20px;
-        }
-    }
-    input{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         padding: 5px;
-        margin: 10px;
+        margin: 20px;
     }
 }
