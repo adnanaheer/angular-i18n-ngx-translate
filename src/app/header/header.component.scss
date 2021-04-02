@@ -1,5 +1,6 @@
 .dropdown{
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(36, 29, 29);
+    color: white;
     font-size: x-large;
     padding: 10px;
   .container{
@@ -9,11 +10,12 @@
     justify-content: space-between;
   }
 }
-button{
-    font-size: 20px;
-    background-color: goldenrod;
-    color: white;
-    border: 1px solid black;
-    border-radius: 50px;
-    padding: 5px 20px 5px 20px;
+.button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px;
+  width: 20%;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
 }

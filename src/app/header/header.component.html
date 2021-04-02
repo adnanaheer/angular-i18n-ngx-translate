@@ -4,7 +4,7 @@
       <a>
         {{'Sitetitle' | translate }}
       </a>
-      <button routerLink="/home">{{'homebtn' | translate }}</button>    
+      <button class="button" routerLink="/home">{{'homebtn' | translate }}</button>    
       <span>
         <select #selectedLang (change)="switchLang(selectedLang.value)">
           <option *ngFor="let language of translate.getLangs()" [value]="language"
