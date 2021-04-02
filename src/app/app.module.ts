@@ -11,10 +11,14 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 import {MatMenuModule} from '@angular/material/menu';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
