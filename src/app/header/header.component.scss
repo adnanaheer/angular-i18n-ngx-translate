@@ -1,0 +1,19 @@
+.dropdown{
+    background-color: rgb(161, 161, 161);
+    font-size: x-large;
+    padding: 10px;
+  .container{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+button{
+    font-size: 20px;
+    background-color: goldenrod;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+}

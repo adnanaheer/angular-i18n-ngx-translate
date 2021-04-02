@@ -1,0 +1,17 @@
+
+<nav class="dropdown">
+    <div class="container">
+      <a>
+        {{'Sitetitle' | translate }}
+      </a>
+      <button routerLink="/home">{{'homebtn' | translate }}</button>    
+      <span>
+        <select #selectedLang (change)="switchLang(selectedLang.value)">
+          <option *ngFor="let language of translate.getLangs()" [value]="language"
+            [selected]="language === translate.currentLang">
+            {{ language }}
+          </option>
+        </select>
+      </span>
+    </div>
+  </nav>
